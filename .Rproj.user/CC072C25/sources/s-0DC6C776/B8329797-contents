@@ -1,0 +1,47 @@
+---
+title: "SHINY"
+author: "   Grupo 5 <br/> INTEGRANTES <br/> Bayona Montañez <br/> Dulanto Castañeda <br/> Nina More"
+date: "21/8/2021"
+output: 
+    xaringan::moon_reader:
+      css: ["default", "middlebury-fonts", "kunoichi"]
+      nature:
+        highlighStyle: github
+        highLine: true
+        countIncrementalSlides: true
+---
+
+class: inverse
+# ¿QUÉ ES SHINY?
+
+`fontawesome::fa("laptop-code")`
+
+###Shiny es un paquete R que facilita la creación de aplicaciones web interactivas,  directamente desde R.  Shiny le permite tomar su trabajo en R y exponerlo a través de un navegador web para que cualquiera pueda usarlo.
+En pocas palabras Shiny es un paquete de R que permite construir aplicaciones web interactivas a partir de los scripts de R.
+
+###INSTALACIÓN:
+```{R=V}
+install.packages (" shiny " )
+library (" shiny ")
+
+
+```
+
+---
+###EJEMPLOS DE APLICACIONES:
+
+```{R=V}
+runExample ( " 01_ hello ") # un histograma
+runExample ( " 02_ text ") # tablas y dataframes
+runExample ( " 03_ reactivity ") # una expresi ón reactiva
+runExample ( " 04_ mpg ") # variables globales
+runExample ( " 05_ sliders ") # barras deslizables
+runExample ( " 06_ tabsets ") # varias pesta ñas
+runExample ( " 07_ widgets ") # textos de ayuda y botones
+runExample ( " 08_ html ") # Shiny desde HTML
+runExample ( " 09_ upload " ) # carga de archivos
+runExample ( " 10_ download ") # descarga de archivos
+runExample ( " 11_ timer ") # día y hora
+``` 
+
+

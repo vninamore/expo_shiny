@@ -14,6 +14,9 @@ output:
 class: inverse
 # ¿QUÉ ES SHINY?
 
+!['Este es un gatito'](imagenes_shiny/shiny_logo.png=100*200)
+
+<img src="imagenes_shiny/shiny_logo.png" width="100" height="100">
 `fontawesome::fa("laptop-code")`
 
 ###Shiny es un paquete R que facilita la creación de aplicaciones web interactivas,  directamente desde R.  Shiny le permite tomar su trabajo en R y exponerlo a través de un navegador web para que cualquiera pueda usarlo.

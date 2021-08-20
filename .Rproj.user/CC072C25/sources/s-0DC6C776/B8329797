@@ -1,9 +1,9 @@
 {
     "id": "B8329797",
-    "path": "D:/R/shiny/shiny_prueba1.0/presentacion_Shiny.Rmd",
+    "path": "D:/R/shiny/shiny_prueba1.0/presentacion_Shiny.md",
     "project_path": null,
-    "type": "r_markdown",
-    "hash": "0",
+    "type": "markdown",
+    "hash": "2655267393",
     "contents": "",
     "dirty": false,
     "created": 1629498337251.0,
@@ -16,11 +16,11 @@
         "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1629498508,
+    "lastKnownWriteTime": 1629502771,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1629498508755,
+    "last_content_update": 1629502771747,
     "read_only": false,
     "read_only_alternatives": []
 }
